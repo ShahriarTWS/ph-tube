@@ -32,12 +32,24 @@
     <section class="inter-font w-11/12 mx-auto">
         <header>
             <nav>
-                <section class="flex justify-between border-b-2 border-[#17171720] py-6 items-center">
-                    <div class="logo">
-                        <img class="w-[120px]" src="assets/Logo.png" alt="">
+                <section class="flex border-b-2 border-[#17171720] py-6 items-center">
+                    <div class="logo flex-1">
+                        <img class="" src="assets/Logo.png" alt="">
                     </div>
-                    <div class="sort btn text-lg font-medium">Sort by view</div>
-                    <div class="blog btn bg-[#FF1F3D] text-white text-lg font-medium">Blog</div>
+                    <div class="sort flex justify-center flex-1">
+                        <button class="btn  text-lg font-medium">Sort by view</button>
+                    </div>
+                    <div class="blog flex justify-end flex-1">
+                        <button class="btn bg-[#FF1F3D] text-white text-lg font-medium">Blogs</button>
+                    </div>
+                </section>
+            </nav>
+
+            <nav>
+                <section id="category-container" class="flex justify-center gap-4 py-8">
+                    <div>
+                        <button class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+                    </div>
                 </section>
             </nav>
         </header>
@@ -47,6 +59,7 @@
 
     </section>
 
+    <script src="script/index.js"></script>
 </body>
 
 </html>
